@@ -5541,7 +5541,8 @@ eltako:
               state_topic: "f6"
               state_template: >-
                 {% if value_json._RAW_DATA_.split(":")[0]=="70" %}on{% elif value_json._RAW_DATA_.split(":")[0]=="50" %}off{% endif %}
-   fud14: &fud14
+    fr62: *t61l
+    fud14: &fud14
       device_config:
          - rorg: "0xA5"
            func: "0x38"
